@@ -1,6 +1,7 @@
 const { fs, path } = require('@vuepress/shared-utils')
 
 module.exports = ctx => ({
+  base: '/vuepress',
   dest: '../../vuepress',
   locales: {
     '/': {
@@ -18,6 +19,7 @@ module.exports = ctx => ({
     ['link', { rel: 'icon', href: `/logo.png` }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'keywords', content: 'vuepress,博客模板,博客搭建,vue官网,vuepress官网,vuepress中文,技术博客,前端开发' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['link', { rel: 'apple-touch-icon', href: `/icons/apple-touch-icon-152x152.png` }],
@@ -90,8 +92,8 @@ module.exports = ctx => ({
     ['flowchart']
   ],
   extraWatchFiles: [
-    '.vuepress/nav/en.js',
-    '.vuepress/nav/zh.js'
+    '.vuepress/nav/zh.js',
+    '.vuepress/nav/en.js'
   ]
 })
 

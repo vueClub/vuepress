@@ -40,6 +40,21 @@
         <slot name="page-bottom" />
       </template>
     </Page>
+    <div id="ad">
+      <a
+        href="javascript:viod(0)"
+        target="_blank"
+        rel="sponsored noopener"
+      >
+        关注Vue中文社区
+        <img src="http://static.vue-js.com/FoACtDzI5t3Bm4VIrZA3cVm1y7o4"></a> <a
+        href="javascript:viod(0)"
+        target="_blank"
+        rel="sponsored noopener"
+      >
+        拉你进500人前端群
+        <img src="http://static.vue-js.com/Fr6pvXKNio5Pe4kEHk0ufXdZ1sHT"></a>
+    </div>
   </div>
 </template>
 

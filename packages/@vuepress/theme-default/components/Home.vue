@@ -44,8 +44,14 @@
         :key="index"
         class="feature"
       >
-        <h2>{{ feature.title }}</h2>
-        <p>{{ feature.details }}</p>
+        <div v-if="index != 0">
+          <h2>{{ feature.title }}</h2>
+          <p>{{ feature.details }}</p>
+        </div>
+        <div v-else>
+          <h2>{{ 关注我们进群领取高阶视频 }}</h2>
+          <p>{{ feature.details }}</p>
+        </div>
       </div>
     </div>
 

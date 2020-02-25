@@ -20,15 +20,19 @@ module.exports = [
     ariaLabel: '了解更多',
     items: [
       {
-        text: 'API',
+        text: '相关',
         items: [
           {
-            text: 'CLI',
-            link: '/zh/api/cli.html'
+            text: 'Vue文档',
+            link: 'https://doc.vue-js.com'
           },
           {
-            text: 'Node',
-            link: '/zh/api/node.html'
+            text: 'Vue社区',
+            link: 'https://vue-js.com'
+          },
+          {
+            text: 'Vue源码',
+            link: 'https://vue-js.com/learn-vue'
           }
         ]
       },
